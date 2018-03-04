@@ -1,6 +1,7 @@
 package cards;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Defines a stack of cards containing all cards.
@@ -10,11 +11,11 @@ import java.util.ArrayList;
  */
 public class Stack {
 
-    String deckId  = null;
+    private String deckId  = null;
 
-    boolean shuffeld = false;
+    private boolean shuffeld = false;
 
-    ArrayList<Card> cards = new ArrayList<>();
+    private ArrayList<Card> cards = new ArrayList<>();
 
     public String getDeckId() {
         return deckId;
@@ -37,6 +38,15 @@ public class Stack {
 
     public void setCards(ArrayList<Card> cards) {
         this.cards = cards;
+    }
+    public int getRemaining()
+    {
+        return cards.size();
+    }
+    public void shuffleCards()
+    {
+        Collections.shuffle(cards);
+        shuffeld = true;
     }
 
 }

@@ -6,11 +6,11 @@ package cards;
  *
  * @author leonk
  */
-class Card {
+public class Card {
 
     String image = "image";
     CardValue value = null;
-    CardSuite suite = null;
+    CardSuit suit = null;
     String code = "code";
 
     public String getImage() {
@@ -29,12 +29,12 @@ class Card {
         this.value = value;
     }
 
-    public CardSuite getSuite() {
-        return suite;
+    public CardSuit getSuite() {
+        return suit;
     }
 
-    public void setSuite(CardSuite suite) {
-        this.suite = suite;
+    public void setSuite(CardSuit suite) {
+        this.suit = suite;
     }
 
     public String getCode() {

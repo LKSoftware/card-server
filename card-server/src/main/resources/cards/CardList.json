@@ -1,318 +1,314 @@
 {
-  "stack": {
-    "cards": {
-      "0": {
-        "image": "image",
-        "value": "ACE",
-        "suit": "HEARTS",
-        "code": "AH"
-      },
-      "1": {
-        "image": "image",
-        "value": "TWO",
-        "suit": "HEARTS",
-        "code": "2H"
-      },
-      "2": {
-        "image": "image",
-        "value": "THREE",
-        "suit": "HEARTS",
-        "code": "3H"
-      },
-      "3": {
-        "image": "image",
-        "value": "FOUR",
-        "suit": "HEARTS",
-        "code": "4H"
-      },
-      "4": {
-        "image": "image",
-        "value": "FIVE",
-        "suit": "HEARTS",
-        "code": "5H"
-      },
-      "5": {
-        "image": "image",
-        "value": "SIX",
-        "suit": "HEARTS",
-        "code": "6H"
-      },
-      "6": {
-        "image": "image",
-        "value": "SEVEN",
-        "suit": "HEARTS",
-        "code": "7H"
-      },
-      "7": {
-        "image": "image",
-        "value": "EIGHT",
-        "suit": "HEARTS",
-        "code": "8H"
-      },
-      "8": {
-        "image": "image",
-        "value": "NINE",
-        "suit": "HEARTS",
-        "code": "9H"
-      },
-      "9": {
-        "image": "image",
-        "value": "TEN",
-        "suit": "HEARTS",
-        "code": "10H"
-      },
-      "10": {
-        "image": "image",
-        "value": "JACK",
-        "suit": "HEARTS",
-        "code": "JH"
-      },
-      "11": {
-        "image": "image",
-        "value": "QUEEN",
-        "suit": "HEARTS",
-        "code": "QH"
-      },
-      "12": {
-        "image": "image",
-        "value": "KING",
-        "suit": "HEARTS",
-        "code": "KH"
-      },
-      "13": {
-        "image": "image",
-        "value": "ACE",
-        "suit": "DIAMONDS",
-        "code": "AD"
-      },
-      "14": {
-        "image": "image",
-        "value": "TWO",
-        "suit": "DIAMONDS",
-        "code": "2D"
-      },
-      "15": {
-        "image": "image",
-        "value": "THREE",
-        "suit": "DIAMONDS",
-        "code": "3D"
-      },
-      "16": {
-        "image": "image",
-        "value": "FOUR",
-        "suit": "DIAMONDS",
-        "code": "4D"
-      },
-      "17": {
-        "image": "image",
-        "value": "FIVE",
-        "suit": "DIAMONDS",
-        "code": "5D"
-      },
-      "18": {
-        "image": "image",
-        "value": "SIX",
-        "suit": "DIAMONDS",
-        "code": "6D"
-      },
-      "19": {
-        "image": "image",
-        "value": "SEVEN",
-        "suit": "DIAMONDS",
-        "code": "7D"
-      },
-      "20": {
-        "image": "image",
-        "value": "EIGHT",
-        "suit": "DIAMONDS",
-        "code": "8D"
-      },
-      "21": {
-        "image": "image",
-        "value": "NINE",
-        "suit": "DIAMONDS",
-        "code": "9D"
-      },
-      "22": {
-        "image": "image",
-        "value": "TEN",
-        "suit": "DIAMONDS",
-        "code": "10D"
-      },
-      "23": {
-        "image": "image",
-        "value": "JACK",
-        "suit": "DIAMONDS",
-        "code": "JD"
-      },
-      "24": {
-        "image": "image",
-        "value": "QUEEN",
-        "suit": "DIAMONDS",
-        "code": "QD"
-      },
-      "25": {
-        "image": "image",
-        "value": "KING",
-        "suit": "DIAMONDS",
-        "code": "KD"
-      },
-      "26": {
-        "image": "image",
-        "value": "ACE",
-        "suit": "CLUBS",
-        "code": "AC"
-      },
-      "27": {
-        "image": "image",
-        "value": "TWO",
-        "suit": "CLUBS",
-        "code": "2C"
-      },
-      "28": {
-        "image": "image",
-        "value": "THREE",
-        "suit": "CLUBS",
-        "code": "3C"
-      },
-      "29": {
-        "image": "image",
-        "value": "FOUR",
-        "suit": "CLUBS",
-        "code": "4C"
-      },
-      "30": {
-        "image": "image",
-        "value": "FIVE",
-        "suit": "CLUBS",
-        "code": "5C"
-      },
-      "31": {
-        "image": "image",
-        "value": "SIX",
-        "suit": "CLUBS",
-        "code": "6C"
-      },
-      "32": {
-        "image": "image",
-        "value": "SEVEN",
-        "suit": "CLUBS",
-        "code": "7C"
-      },
-      "33": {
-        "image": "image",
-        "value": "EIGHT",
-        "suit": "CLUBS",
-        "code": "8C"
-      },
-      "34": {
-        "image": "image",
-        "value": "NINE",
-        "suit": "CLUBS",
-        "code": "9C"
-      },
-      "35": {
-        "image": "image",
-        "value": "TEN",
-        "suit": "CLUBS",
-        "code": "10C"
-      },
-      "36": {
-        "image": "image",
-        "value": "JACK",
-        "suit": "CLUBS",
-        "code": "JC"
-      },
-      "37": {
-        "image": "image",
-        "value": "QUEEN",
-        "suit": "CLUBS",
-        "code": "QC"
-      },
-      "38": {
-        "image": "image",
-        "value": "KING",
-        "suit": "CLUBS",
-        "code": "KC"
-      },
-      "39": {
-        "image": "image",
-        "value": "ACE",
-        "suit": "SPADES",
-        "code": "AS"
-      },
-      "40": {
-        "image": "image",
-        "value": "TWO",
-        "suit": "SPADES",
-        "code": "2S"
-      },
-      "41": {
-        "image": "image",
-        "value": "THREE",
-        "suit": "SPADES",
-        "code": "3S"
-      },
-      "42": {
-        "image": "image",
-        "value": "FOUR",
-        "suit": "SPADES",
-        "code": "4S"
-      },
-      "43": {
-        "image": "image",
-        "value": "FIVE",
-        "suit": "SPADES",
-        "code": "5S"
-      },
-      "44": {
-        "image": "image",
-        "value": "SIX",
-        "suit": "SPADES",
-        "code": "6S"
-      },
-      "45": {
-        "image": "image",
-        "value": "SEVEN",
-        "suit": "SPADES",
-        "code": "7S"
-      },
-      "46": {
-        "image": "image",
-        "value": "EIGHT",
-        "suit": "SPADES",
-        "code": "8S"
-      },
-      "47": {
-        "image": "image",
-        "value": "NINE",
-        "suit": "SPADES",
-        "code": "9S"
-      },
-      "48": {
-        "image": "image",
-        "value": "TEN",
-        "suit": "SPADES",
-        "code": "10S"
-      },
-      "49": {
-        "image": "image",
-        "value": "JACK",
-        "suit": "SPADES",
-        "code": "JS"
-      },
-      "50": {
-        "image": "image",
-        "value": "QUEEN",
-        "suit": "SPADES",
-        "code": "QS"
-      },
-      "51": {
-        "image": "image",
-        "value": "KING",
-        "suit": "SPADES",
-        "code": "KS"
-      }
-    }
+  "0": {
+    "image": "image",
+    "value": "ACE",
+    "suit": "HEARTS",
+    "code": "AH"
+  },
+  "1": {
+    "image": "image",
+    "value": "TWO",
+    "suit": "HEARTS",
+    "code": "2H"
+  },
+  "2": {
+    "image": "image",
+    "value": "THREE",
+    "suit": "HEARTS",
+    "code": "3H"
+  },
+  "3": {
+    "image": "image",
+    "value": "FOUR",
+    "suit": "HEARTS",
+    "code": "4H"
+  },
+  "4": {
+    "image": "image",
+    "value": "FIVE",
+    "suit": "HEARTS",
+    "code": "5H"
+  },
+  "5": {
+    "image": "image",
+    "value": "SIX",
+    "suit": "HEARTS",
+    "code": "6H"
+  },
+  "6": {
+    "image": "image",
+    "value": "SEVEN",
+    "suit": "HEARTS",
+    "code": "7H"
+  },
+  "7": {
+    "image": "image",
+    "value": "EIGHT",
+    "suit": "HEARTS",
+    "code": "8H"
+  },
+  "8": {
+    "image": "image",
+    "value": "NINE",
+    "suit": "HEARTS",
+    "code": "9H"
+  },
+  "9": {
+    "image": "image",
+    "value": "TEN",
+    "suit": "HEARTS",
+    "code": "10H"
+  },
+  "10": {
+    "image": "image",
+    "value": "JACK",
+    "suit": "HEARTS",
+    "code": "JH"
+  },
+  "11": {
+    "image": "image",
+    "value": "QUEEN",
+    "suit": "HEARTS",
+    "code": "QH"
+  },
+  "12": {
+    "image": "image",
+    "value": "KING",
+    "suit": "HEARTS",
+    "code": "KH"
+  },
+  "13": {
+    "image": "image",
+    "value": "ACE",
+    "suit": "DIAMONDS",
+    "code": "AD"
+  },
+  "14": {
+    "image": "image",
+    "value": "TWO",
+    "suit": "DIAMONDS",
+    "code": "2D"
+  },
+  "15": {
+    "image": "image",
+    "value": "THREE",
+    "suit": "DIAMONDS",
+    "code": "3D"
+  },
+  "16": {
+    "image": "image",
+    "value": "FOUR",
+    "suit": "DIAMONDS",
+    "code": "4D"
+  },
+  "17": {
+    "image": "image",
+    "value": "FIVE",
+    "suit": "DIAMONDS",
+    "code": "5D"
+  },
+  "18": {
+    "image": "image",
+    "value": "SIX",
+    "suit": "DIAMONDS",
+    "code": "6D"
+  },
+  "19": {
+    "image": "image",
+    "value": "SEVEN",
+    "suit": "DIAMONDS",
+    "code": "7D"
+  },
+  "20": {
+    "image": "image",
+    "value": "EIGHT",
+    "suit": "DIAMONDS",
+    "code": "8D"
+  },
+  "21": {
+    "image": "image",
+    "value": "NINE",
+    "suit": "DIAMONDS",
+    "code": "9D"
+  },
+  "22": {
+    "image": "image",
+    "value": "TEN",
+    "suit": "DIAMONDS",
+    "code": "10D"
+  },
+  "23": {
+    "image": "image",
+    "value": "JACK",
+    "suit": "DIAMONDS",
+    "code": "JD"
+  },
+  "24": {
+    "image": "image",
+    "value": "QUEEN",
+    "suit": "DIAMONDS",
+    "code": "QD"
+  },
+  "25": {
+    "image": "image",
+    "value": "KING",
+    "suit": "DIAMONDS",
+    "code": "KD"
+  },
+  "26": {
+    "image": "image",
+    "value": "ACE",
+    "suit": "CLUBS",
+    "code": "AC"
+  },
+  "27": {
+    "image": "image",
+    "value": "TWO",
+    "suit": "CLUBS",
+    "code": "2C"
+  },
+  "28": {
+    "image": "image",
+    "value": "THREE",
+    "suit": "CLUBS",
+    "code": "3C"
+  },
+  "29": {
+    "image": "image",
+    "value": "FOUR",
+    "suit": "CLUBS",
+    "code": "4C"
+  },
+  "30": {
+    "image": "image",
+    "value": "FIVE",
+    "suit": "CLUBS",
+    "code": "5C"
+  },
+  "31": {
+    "image": "image",
+    "value": "SIX",
+    "suit": "CLUBS",
+    "code": "6C"
+  },
+  "32": {
+    "image": "image",
+    "value": "SEVEN",
+    "suit": "CLUBS",
+    "code": "7C"
+  },
+  "33": {
+    "image": "image",
+    "value": "EIGHT",
+    "suit": "CLUBS",
+    "code": "8C"
+  },
+  "34": {
+    "image": "image",
+    "value": "NINE",
+    "suit": "CLUBS",
+    "code": "9C"
+  },
+  "35": {
+    "image": "image",
+    "value": "TEN",
+    "suit": "CLUBS",
+    "code": "10C"
+  },
+  "36": {
+    "image": "image",
+    "value": "JACK",
+    "suit": "CLUBS",
+    "code": "JC"
+  },
+  "37": {
+    "image": "image",
+    "value": "QUEEN",
+    "suit": "CLUBS",
+    "code": "QC"
+  },
+  "38": {
+    "image": "image",
+    "value": "KING",
+    "suit": "CLUBS",
+    "code": "KC"
+  },
+  "39": {
+    "image": "image",
+    "value": "ACE",
+    "suit": "SPADES",
+    "code": "AS"
+  },
+  "40": {
+    "image": "image",
+    "value": "TWO",
+    "suit": "SPADES",
+    "code": "2S"
+  },
+  "41": {
+    "image": "image",
+    "value": "THREE",
+    "suit": "SPADES",
+    "code": "3S"
+  },
+  "42": {
+    "image": "image",
+    "value": "FOUR",
+    "suit": "SPADES",
+    "code": "4S"
+  },
+  "43": {
+    "image": "image",
+    "value": "FIVE",
+    "suit": "SPADES",
+    "code": "5S"
+  },
+  "44": {
+    "image": "image",
+    "value": "SIX",
+    "suit": "SPADES",
+    "code": "6S"
+  },
+  "45": {
+    "image": "image",
+    "value": "SEVEN",
+    "suit": "SPADES",
+    "code": "7S"
+  },
+  "46": {
+    "image": "image",
+    "value": "EIGHT",
+    "suit": "SPADES",
+    "code": "8S"
+  },
+  "47": {
+    "image": "image",
+    "value": "NINE",
+    "suit": "SPADES",
+    "code": "9S"
+  },
+  "48": {
+    "image": "image",
+    "value": "TEN",
+    "suit": "SPADES",
+    "code": "10S"
+  },
+  "49": {
+    "image": "image",
+    "value": "JACK",
+    "suit": "SPADES",
+    "code": "JS"
+  },
+  "50": {
+    "image": "image",
+    "value": "QUEEN",
+    "suit": "SPADES",
+    "code": "QS"
+  },
+  "51": {
+    "image": "image",
+    "value": "KING",
+    "suit": "SPADES",
+    "code": "KS"
   }
 }

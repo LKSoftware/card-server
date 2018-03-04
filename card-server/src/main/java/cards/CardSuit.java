@@ -1,10 +1,10 @@
 package cards;
 
 /**
- * All the available card suites
+ * All the available card suits
  *
  * @author leonk
  */
-public enum CardSuite {
+public enum CardSuit {
     HEARTS, DIAMONDS, CLUBS, SPADES
 }
