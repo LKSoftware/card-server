@@ -1,6 +1,7 @@
 import cards.Card;
 import cards.CardSupplier;
 import cards.Stack;
+import com.google.gson.Gson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,7 +17,9 @@ public class CardManagement {
     private static final Logger LOG = LoggerFactory.getLogger(CardManagement.class);
     private static final CardManagement INSTANCE = new CardManagement();
 
-    public static HashMap<String, Stack> stacks = new HashMap<>();
+    public static final Gson gson = new Gson();
+
+    public static final HashMap<String, Stack> stacks = new HashMap<>();
 
     private CardManagement()
     {
@@ -45,5 +48,15 @@ public class CardManagement {
     public Stack getStack(String id)
     {
         return stacks.get(id);
+    }
+
+    public String getStackAsJson(String id)
+    {
+        return gson.toJson(stacks.get(id), Stack.class);
+    }
+
+    public String drawCards(int cards)
+    {
+        return null;
     }
 }

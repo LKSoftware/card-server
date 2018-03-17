@@ -20,17 +20,16 @@ public class Main {
             res.type("application/json");
             return IOUtils.toString(Main.class.getClassLoader().getResourceAsStream("cards/CardList.json"));
         });
-        Spark.get("/test", (req,res) -> {
+        Spark.get("/create", (req,res) -> {
             res.type("application/json");
 
             return "Created deck with ID: " + CardManagement.getInstance().createGame();
         });
         Spark.get("/deck", (req,res) ->{
-            System.out.println("Accuiring Deck for id " + req.queryParams("deckId"));
-            Stack st = CardManagement.getInstance().getStack(req.queryParams("deckId"));
             res.type("application/json");
-            st.shuffleCards();
-            return "Deck size " + st.getRemaining() + gson.toJson(st, Stack.class);
+            String deckId = req.queryParams("deckId");
+            System.out.println("Accuiring Deck for id " + deckId);
+            return CardManagement.getInstance().getStackAsJson(deckId);
         });
 
     }

@@ -8,18 +8,9 @@ package cards;
  */
 public class Card {
 
-    String image = "image";
     CardValue value = null;
     CardSuit suit = null;
     String code = "code";
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
 
     public CardValue getValue() {
         return value;
