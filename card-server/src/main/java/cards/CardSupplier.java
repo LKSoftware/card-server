@@ -34,7 +34,6 @@ public class CardSupplier {
             {
                 Card card = new Card();
                 JsonObject obj = json.getAsJsonObject(String.valueOf(i));
-                card.setImage(obj.get("image").getAsString());
                 card.setValue(CardValue.valueOf(obj.get("value").getAsString()));
                 card.setSuite(CardSuit.valueOf(obj.get("suit").getAsString()));
                 card.setCode(obj.get("code").getAsString());

@@ -1,9 +1,6 @@
 package cards;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Defines a stack of cards containing all cards.
@@ -21,9 +18,9 @@ public class Stack {
 
     private String pathToImages = "";
 
-    private ArrayList<Card> cards = new ArrayList<>();
+    private List<Card> cards = new ArrayList<>();
 
-    private HashMap<String, ArrayList<Card>> hands = new HashMap<>();
+    private Map<String, List<Card>> hands = new HashMap<>();
 
     public String getCardImage(Card card)
     {
@@ -46,11 +43,11 @@ public class Stack {
         this.shuffeld = shuffeld;
     }
 
-    public ArrayList<Card> getCards() {
+    public List<Card> getCards() {
         return cards;
     }
 
-    public void setCards(ArrayList<Card> cards) {
+    public void setCards(List<Card> cards) {
         this.cards = cards;
     }
 
@@ -64,20 +61,20 @@ public class Stack {
         shuffeld = true;
     }
 
-    public ArrayList<Card> drawToHand(int times, String hand){
-        if(times >= getRemaining())
+    public List<Card> drawToHand(String hand, int times){
+        if(times <= getRemaining())
         {
-            ArrayList<Card> drawn = drawCards(times);
+            List<Card> drawn = drawCards(times);
             hands.put(hand, drawn);
             return drawn;
         }
-        return null;
+        return Collections.emptyList();
     }
 
-    private ArrayList<Card> drawCards(int times)
+    private List<Card> drawCards(int times)
     {
         Random rand = new Random(915195l);
-        ArrayList<Card> drawn = new ArrayList<>();
+        List<Card> drawn = new ArrayList<>();
         for (int i = 0; i < times; i++)
         {
             int item = rand.nextInt(cards.size());

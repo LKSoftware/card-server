@@ -35,4 +35,9 @@ public class Card {
     public void setCode(String code) {
         this.code = code;
     }
+
+    public String toString()
+    {
+        return getCode() + ", " + getSuite() + ", " + getValue();
+    }
 }

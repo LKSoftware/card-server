@@ -2,12 +2,12 @@ import cards.Card;
 import cards.CardSupplier;
 import cards.Stack;
 import com.google.gson.Gson;
+import jdk.nashorn.internal.objects.NativeJSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.UUID;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * CardManagement holds all the methods for playing a deck of cards adding, removing, generating and distributing cards.
@@ -55,8 +55,16 @@ public class CardManagement {
         return gson.toJson(stacks.get(id), Stack.class);
     }
 
-    public String drawCards(int cards)
+    public Collection<Card> drawCards(String id,String hand, int cards)
     {
-        return null;
+        for(Stack stack : stacks.values())
+        {
+            if(stack.getDeckId().equals(id))
+            {
+                return stack.drawToHand(hand, cards);
+            }
+        }
+
+        return Collections.emptyList();
     }
 }

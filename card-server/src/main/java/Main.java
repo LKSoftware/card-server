@@ -1,3 +1,4 @@
+import cards.Card;
 import cards.CardSupplier;
 import cards.Stack;
 import com.google.gson.Gson;
@@ -8,6 +9,7 @@ import spark.*;
 import spark.utils.IOUtils;
 
 import java.io.InputStream;
+import java.util.List;
 
 public class Main {
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);
@@ -23,14 +25,23 @@ public class Main {
         Spark.get("/create", (req,res) -> {
             res.type("application/json");
 
-            return "Created deck with ID: " + CardManagement.getInstance().createGame();
+            return gson.toJson(CardManagement.getInstance().createGame());
         });
         Spark.get("/deck", (req,res) ->{
             res.type("application/json");
             String deckId = req.queryParams("deckId");
-            System.out.println("Accuiring Deck for id " + deckId);
+            LOG.info("Accuiring Deck for id " + deckId);
             return CardManagement.getInstance().getStackAsJson(deckId);
         });
+        Spark.get("/draw", (req,res) ->{
+            res.type("application/json");
+            String deckId = req.queryParams("deckId");
+            String hand = req.queryParams("hand");
+            int cards = Integer.valueOf(req.queryParams("cards"));
+            LOG.info("Drawing from " + deckId);
+            return gson.toJson(CardManagement.getInstance().drawCards(deckId,hand,cards), List.class);
+        });
+
 
     }
 }
